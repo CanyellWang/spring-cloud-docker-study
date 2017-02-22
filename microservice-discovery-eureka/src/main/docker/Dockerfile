@@ -1,5 +1,5 @@
 # 基于哪个镜像
-FROM java:8
+FROM registry.cn-hangzhou.aliyuncs.com/com.lida/java8
 
 # 将本地文件夹挂载到当前容器
 VOLUME /tmp
